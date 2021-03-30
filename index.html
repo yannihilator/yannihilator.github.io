@@ -34,14 +34,17 @@
                         <span style="color: #89c2d9; font-weight: bold;">critical thinker</span>.  
                     </p>
                     <p>I am a 
-                        <span style="color: #89c2d9; font-weight: bold;">learner</span>.  
+                        <span style="color: #89c2d9; font-weight: bold;">serial learner</span>.  
                     </p>
                 </div>
             </div>
-            <div class="container" style="height: 30vh;">
+            <div id="bottomContainer" class="container">
                 <div class="d-flex align-items-center justify-content-center">
                     <a class="btn btn-outline-light" href="/Pages/aboutMe.html" type="button">About Me</a>
                 </div>  
+                <script>
+                    document.getElementById("bottomContainer").style.height = "30vh - " + document.getElementById("siteNavbar").style.height;
+                </script>
             </div>         
         </div>
 
