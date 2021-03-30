@@ -1,14 +1,16 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #012a4a; border-bottom: 3px solid #2a6f97;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"></a>
+      <a class="navbar-brand" style="font-size: x-large;" href="/index.html">
+        YK
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapsible" aria-controls="navbarCollapsible" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapsible">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/Pages/aboutMe.html">About Me</a>
+            <a class="nav-link" aria-current="page" href="/Pages/aboutMe.html">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/Pages/projects.html">Projects</a>
@@ -24,3 +26,16 @@
       </div>
     </div>
 </nav>
+
+<script>
+  $(document).ready(function () {
+    var url = window.location.pathname;
+    // Will only work if string in href matches with location
+    $('ul.navbar-nav a[href="' + url + '"]').addClass('active');
+
+    // Will also work for relative and absolute hrefs
+    $('ul.navbar-nav a').filter(function () {
+        return this.href == url;
+    }).addClass('active');
+  });
+</script>

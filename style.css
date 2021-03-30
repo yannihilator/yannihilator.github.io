@@ -1,7 +1,8 @@
 .icon {
-    fill: whitesmoke;
+    transition: fill 0.4s ease;
+    fill: rgba(135, 154, 169, 0.8);
 }
 
 .icon:hover {
-    fill:tomato;
+    fill: rgba(191, 202, 210, 0.9);
 }
