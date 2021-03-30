@@ -9,7 +9,8 @@
 
 .btn-outline-light {
     color: #89c2d9;
-    border-color: #89c2d9; 
+    border-color: #89c2d9;
+    -webkit-appearance: none; 
 }
 .btn-outline-light:hover, .btn-outline-light:focus, .btn-outline-light:active, .btn-outline-light.active, .open>.dropdown-toggle.btn-outline-light {
     color: #1f2224;
