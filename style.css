@@ -56,3 +56,14 @@
       opacity: 1.0;
     }
 }
+
+.tile-container {
+    position: relative;    
+}
+.tile {
+    width: 50px;
+    height:50px;
+    background-color: transparent;
+    position:fixed;
+    z-index: -1;
+}
