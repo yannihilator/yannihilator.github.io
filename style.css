@@ -17,3 +17,42 @@
     background-color: #89c2d9;
     border-color: #012a4a; 
 }
+
+.p-fade {
+    opacity: 0;
+    animation: fadeIn 2s 1;
+    animation-fill-mode: forwards;
+}
+
+.p-fade:nth-child(5n+1) {
+    animation-delay: 0.5s;
+}
+
+.p-fade:nth-child(5n+2) {
+    animation-delay: 1s;
+}
+
+.p-fade:nth-child(5n+3) {
+    animation-delay: 1.5s;
+}
+
+.p-fade:nth-child(5n+4) {
+    animation-delay: 2s;
+}
+
+.p-fade:nth-child(5n+5) {
+    animation-delay: 2.5s;
+}
+
+.p-fade:nth-child(5n+6) {
+    animation-delay: 3s;
+}
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0.0;
+    }
+    100% {
+      opacity: 1.0;
+    }
+}
