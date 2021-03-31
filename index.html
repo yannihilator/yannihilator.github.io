@@ -69,8 +69,12 @@
         </div>
         <script>
             $(document).ready(function(){
-                animateDiv();
+                $('.tile').each(function(i, obj){
+                    var newq = makeNewPosition();
                 
+                    $(this).css({"top": newq[0], "left": newq[1]});
+                });
+                animateDiv();
             });
 
             function makeNewPosition(){
@@ -90,7 +94,7 @@
                 $('.tile').each(function(i, obj){
                     var newq = makeNewPosition();
                 
-                    $(this).animate({ top: newq[0], left: newq[1] }, 30000, function(){
+                    $(this).animate({ top: newq[0], left: newq[1], rotate: "+=90deg" }, 30000, function(){
                     animateDiv();        
                 })});
                 
