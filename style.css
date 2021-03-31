@@ -76,3 +76,9 @@
         size: 150%;
     }
 }
+
+@media (max-width: 750px) {
+    body {
+        font-size: 0.9rem;
+    }
+}
