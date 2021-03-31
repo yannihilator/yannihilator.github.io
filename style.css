@@ -67,3 +67,12 @@
     position:fixed;
     z-index: -1;
 }
+
+@media (min-width: 750px) {
+    body {
+        font-size: 1.5rem;
+    }
+    a {
+        size: 150%;
+    }
+}
