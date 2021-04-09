@@ -72,12 +72,21 @@
     animation-delay: 4s;
 }
 
+.card {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 750px) {
     body {
         font-size: 1.5rem;
     }
     .display-6 {
         font-size: 3rem;
+    }
+    .card {
+        /*font-size: ;*/
     }
 }
 
@@ -87,5 +96,8 @@
     }
     .display-6 {
         font-size: 1.5rem;
+    }
+    .card {
+        /*font-size: ;*/
     }
 }
