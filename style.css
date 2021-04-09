@@ -76,7 +76,16 @@
     body {
         font-size: 1.5rem;
     }
-    #display-6 {
-        size: 1.5rem;
+    .display-6 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 750px) {
+    body {
+        font-size: 0.9rem;
+    }
+    .display-6 {
+        font-size: 1.5rem;
     }
 }
