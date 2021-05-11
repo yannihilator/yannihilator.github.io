@@ -87,6 +87,7 @@
     }
     .card {
         /*font-size: ;*/
+        width: 60%;
     }
 }
 
@@ -99,5 +100,6 @@
     }
     .card {
         /*font-size: ;*/
+        width: 80%;
     }
 }
