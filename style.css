@@ -99,7 +99,7 @@
 }
 
 /* For high resolution screen sizes */
-@media (min-width: 2000px) {
+@media (min-width: 1500px) {
     body {
         font-size: 1.5rem;
     }
@@ -124,7 +124,7 @@
 }
 
 /* For laptop screen sizes */
-@media (min-width: 1000px) {
+@media (min-width: 750px) and (max-width: 1500px) {
     body {
         font-size: 1.1rem;
     }
@@ -140,7 +140,7 @@
         height: 30px;
     }
     .btn {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
   
     }
     .tile {
