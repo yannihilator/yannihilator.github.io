@@ -1,3 +1,3 @@
-# Yanni Karamanis
+# YanniKaramanis.com
 
-Hello world
+This repository holds the source code for [my portfolio website](https://yannikaramanis.com).
