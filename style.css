@@ -94,7 +94,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
+
+.sliding-text {
+    opacity: 0;
+    animation: SlideUp 1.0s ease;
+    animation-fill-mode: forwards;
+}
 
 @keyframes SlideUp {
     0% {
@@ -130,6 +136,10 @@
         height: 60px;
         width: 60px;
     }
+    .image {
+        height: 400px;
+        width: 400px;
+    }
 }
 
 /* For laptop screen sizes */
@@ -155,6 +165,10 @@
     .tile {
         height: 30px;
         width: 30px;
+    }
+    .image {
+        height: 300px;
+        width: 300px;
     }
 }
 
