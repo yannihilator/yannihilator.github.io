@@ -7,6 +7,14 @@
     fill: rgba(191, 202, 210, 0.9);
 }
 
+.image {
+    opacity: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    animation: SlideUp 1.0s ease;
+    animation-fill-mode: forwards;
+}
+
 .btn-outline-light {
     color: #89c2d9;
     border-color: #89c2d9;
@@ -60,6 +68,7 @@
 .tile-container {
     position: relative;    
 }
+
 .tile {
     width: 50px;
     height:50px;
