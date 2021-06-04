@@ -116,6 +116,12 @@
     text-align: justify;
 }
 
+.table-text {
+    border: 1px solid black; 
+    padding: 0 10px 0 10px; 
+    text-align: center;
+}
+
 @keyframes SlideUp {
     0% {
         opacity: 0;
@@ -154,6 +160,9 @@
         height: 400px;
         width: 400px;
     }
+    .table-text {
+        font-size: 1.5rem;
+    }
 }
 
 /* For laptop screen sizes */
@@ -184,6 +193,9 @@
         height: 300px;
         width: 300px;
     }
+    .table-text {
+        font-size: 1.0rem;
+    }
 }
 
 /* For mobile */
@@ -212,6 +224,9 @@
     }
     .text-container {
         width: 80%;
+    }
+    .table-text {
+        font-size: 0.6rem;
     }
 }
 
