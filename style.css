@@ -122,6 +122,10 @@
     text-align: center;
 }
 
+h3 {
+    text-align: left;
+}
+
 @keyframes SlideUp {
     0% {
         opacity: 0;
