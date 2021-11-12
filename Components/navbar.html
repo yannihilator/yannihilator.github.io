@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #012a4a; border-bottom: 3px solid #2a6f97;">
+<nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark" style="background-color: #012a4a; border-bottom: 3px solid #2a6f97;">
     <div class="container-fluid">
       <a class="navbar-brand display-6" style="font-size: xx-large; font-weight: bold;" href="/index.html">
         Y<span class="display-6" style="font-size: xx-large; font-weight: bold; color:#89C2D9;">K</span>
@@ -37,5 +37,33 @@
     $('ul.navbar-nav a').filter(function () {
         return this.href == url;
     }).addClass('active');
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 10) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+    });
   });
+
+  document.addEventListener("DOMContentLoaded", function(){
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 1) {
+        document.getElementById('navbar_top').classList.add('fixed-top');
+        // add padding top to show content behind navbar
+        navbar_height = document.querySelector('.navbar').offsetHeight;
+        document.body.style.paddingTop = navbar_height + 'px';
+      } else {
+        document.getElementById('navbar_top').classList.remove('fixed-top');
+         // remove padding top from body
+        document.body.style.paddingTop = '0';
+      } 
+    });
+  }); 
 </script>
