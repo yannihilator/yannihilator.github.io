@@ -20,15 +20,43 @@
                 });
             </script>
         </div>
+        <div class="text-container">
+            <section id="purpose" class="sliding-text" style="animation-delay: 0.2s;">
+                <h3 style="font-weight: bold;">Purpose</h3>
+                <p>
+                    At my current company, I am responsible for recording the hours that I work for specifically allotted charge numbers. 
+                    For me, it was tedious and disorganized to record my activity throughout my workday in a spreadsheet, and make copies of
+                    it week after week. I sought to use a time tracking application such as <i>Clockify</i>, but also wanted to keep my 
+                    data local to my company-assigned machine. Thus, I created a simple .NET Core console application that assists with tracking my daily 
+                    activities and saves the app data locally. It is extremely useful during hectic workdays where I am supporting multiple 
+                    efforts and saves the headache of adding up my time at the end of the workday. Furthermore, developing this application in 
+                    .NET Core is beneficial as I do all of my personal work on macOS, and I utilize this on my personal machine to track the time
+                    spent on personal projects, as well as my Master's degree activity.
+                </p>
+            </section>  
+            <section id="appSummary" class="sliding-text" style="animation-delay: 0.4s;">
+                <h3 style="font-weight: bold;">Time Log Application Summary</h3>
+                <p>
+                    <i>Time Log</i> is a .NET Core console application that times the duration spent working on specific projects or activities 
+                    the user specifies. It stores the application data locally in Javascript Object Notation (JSON) format for protecting any proprietary 
+                    information the user might wish to save. It is available on Windows, macOS, and Linux.
+                </p>
+            </section>
+            <section id="howTo" class="sliding-text" style="animation-delay: 0.6s;">
+                <h3 style="font-weight: bold;">How To</h3>
+                <p>
+                    Once you have installed <i>Time Log</i>, start it up on your machine. The following screen will appear:
+                    <img class="center" width="80%" height="100%" src="/Images/Projects/TimeLog/startScreen.png">
+                    The start screen shows the current date, any time log entries the user has made today, and a set of actions 
+                    the user can take from this screen. To perform an action to an existing entry, the user can type the ID number 
+                    of the entry from the list to either edit its values or delete it; to start timing a new entry, the user can simply press the [Enter] key; to 
+                    view the daily totals for each project/charge number, the user can type <span style="font-family: 'Courier New', Courier, monospace; font-size: medium">totals</span> in the command line 
+                    and press the [Enter] key; to exit the application, the user can type <span style="font-family: 'Courier New', Courier, monospace; font-size: medium;">exit</span> in the command line and 
+                    press the [Enter] key.
+                </p>
+            </section>
+        </div>       
         
-        &nbsp;&nbsp;
-        <h1 class="text-center display-6" style="color: whitesmoke;">
-            This page is currently under construction.
-        </h1>
-        &nbsp;&nbsp;
-        <img class="center" src="/Images/construction.png" width="100px" height="100px"/>
-
-
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     </body>
