@@ -131,8 +131,9 @@
                     The FPL website has a public application programming interface (API) that anyone can access to retrieve data. Through multiple endpoints, detailed data is available
                     for the current season, and basic information is made available for past seasons. On startup, the application utilizes custom clients to retrieve data through the API
                     and store it in the application's memory, thus making it easily accessible for data visualization and analysis during the instance of the application. With the current 
-                    season's data, analysis is conducted to choose the best FPL team and present visuals of the data for teams, players, and FPL managers. For its deployment, the application
-                    is put into a Docker container and its image is shown through Heroku.
+                    season's data, analysis is conducted to choose the best FPL team and present visuals of the data for teams, players, and FPL managers. For its deployment, GitHub Actions
+                    is utilized to build, publish, and package the application into a Docker container, which is then pushed to Heroku. This GitHub Actions script is executed on every push to
+                    the default protected branch.
                 </p>
             </section>
             <br>
@@ -144,6 +145,7 @@
                     <li>Newtonsoft</li>
                     <li>Bootstrap 4.3.1</li>
                     <li>Docker</li>
+                    <li>GitHub Actions</li>
                     <li>Heroku</li>
                 </ul>
             </section>
