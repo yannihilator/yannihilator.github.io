@@ -4,7 +4,6 @@ date: "2026-01-10T12:07:01-05:00"
 draft: false
 toc: false
 images: 
-  - /images/rss.png
 tags: 
   - Technology
   - Lifestyle

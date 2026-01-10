@@ -4,7 +4,6 @@ date: 2026-01-10T12:12:28-05:00
 draft: false
 toc: false
 images: 
-  - /images/robot_whisper.jpg
 tags: 
   - Technology
   - Lifestyle
