@@ -1121,7 +1121,7 @@ a.footnote-ref {
 #home-subtitle {
   // Initially hidden until animation system is ready
   visibility: hidden;
-  text-align: center;
+  /* text-align: center; */
 
   // Show element during active typewriter animation states
   &.ready,
