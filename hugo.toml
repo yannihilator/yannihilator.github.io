@@ -52,7 +52,7 @@ enableEmoji = true
 
 [params.author]
   name = "Yanni Karamanis"
-  about = "about"
+  # about = "about"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -156,8 +156,8 @@ enableEmoji = true
     url = "guides/"
     weight = 20
 
-  [[menu.main]]
-    name = "About"
-    url = "about/"
-    weight = 30
+  # [[menu.main]]
+  #   name = "About"
+  #   url = "about/"
+  #   weight = 30
 
