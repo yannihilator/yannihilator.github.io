@@ -52,7 +52,7 @@ enableEmoji = true
 
 [params.author]
   name = "Yanni Karamanis"
-  about = "about-hugo"
+  about = "about"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -94,7 +94,6 @@ enableEmoji = true
   themeColor = "#494f5c"
   accentColor = "#018472"
 
-  #homeSubtitle = "Continuing Hermit's legacy to be minimal and fast theme"
   # footerCopyright = ' <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a>'
   # bgImg = ""
   # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
@@ -118,7 +117,7 @@ enableEmoji = true
   listLayout = ["description","tags"] # Supported : legacy, description, categories, tags
   # initialPublish = "Initally Posted on: "
   human = ["single","posts"]
-  # denyRobots = "noindex, nofollow, noarchive"
+  denyRobots = "noindex, nofollow, noarchive"
   # allowRobots = "index, follow"
   # siteNoIndex = false
   # noIndexPages = ["404 Page not found"]
@@ -153,7 +152,12 @@ enableEmoji = true
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
+    name = "Guides"
+    url = "guides/"
     weight = 20
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 30
 
