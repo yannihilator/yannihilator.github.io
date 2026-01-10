@@ -1,6 +1,6 @@
 +++
 date = '2026-01-10T12:07:01-05:00'
-draft = true
+draft = false
 title = 'RSS - A Non-Endless Content Feed'
 +++
 
@@ -10,7 +10,7 @@ The main purpose of having an RSS feed is to get content from various sources wi
 
 Although we want to escape suggestion algorithms, we still want to see content from sources that help us in some way. RSS is the long-forgotten protocol of how the internet was originally supposed to work, in a decentralized manner; we don't need to depend on huge platforms that have a financial interest in keeping your attention to see a video/article/post from someone we want to follow.
 
-For example, YouTube has a plethora of useful content; I have learned many new skills from the content on YouTube that have helped me in my career and improved my day-to-day life. What I have *not* benefited from, however, is the countless hours I have spent scrolling through my recommended feed on YHouTubes homepage, or the rabbit holes that show me content that will likely never be useful in my life. 
+For example, YouTube has a plethora of useful content; I have learned many new skills from the content on YouTube that have helped me in my career and improved my day-to-day life. What I have *not* benefited from, however, is the countless hours I have spent scrolling through my recommended feed on YouTube's homepage, or the rabbit holes that show me content that will likely never be useful in my life. 
 
 The difference between using YouTube as a tool and getting used by YouTube is intentionality. If I know what channels produce quality content that I want to subscribe to, I can subscribe anonymously* via RSS. If I need to discover channels for a new area of interest, I just search. In YouTube's case, all I need to do is turn off watch history and the recommended feed does not show up.
 

@@ -1,0 +1,44 @@
+@startuml
+actor You
+entity phone as "Phone/App"
+database servers as "Platform Servers\n(YouTube, TikTok, Instagram, etc)"
+collections algorithm as "Suggestion Algorithm"
+
+You --> phone: Eyeballs/Attention 
+phone --> servers: Post you see
+phone --> servers: Topics/tags of that post
+phone --> servers: How long you looked at post 
+
+servers --> algorithm: Your past activity/scrolling behavior
+servers --> algorithm: Post you see 
+servers --> algorithm: Topics/tags of that post    
+servers --> algorithm: How long you looked at post 
+
+servers <-- algorithm: Next post to show you to keep you from closing the app
+phone <-- servers: Next post to show you to keep you from closing the app
+You <-- phone: Dopamine
+@enduml
+
+@startuml
+actor You
+entity phone as "Phone/App"
+database servers as "Platform Servers\n(YouTube, TikTok, Instagram, etc)"
+collections algorithm as "Suggestion Algorithm"
+entity genAI as "Generative AI"
+
+You --> phone: Eyeballs/Attention 
+phone --> servers: Post you see
+phone --> servers: Topics/tags of that post
+phone --> servers: How long you looked at post 
+
+servers --> algorithm: Your past activity/scrolling behavior
+servers --> algorithm: Post you see 
+servers --> algorithm: Topics/tags of that post    
+servers --> algorithm: How long you looked at post 
+
+algorithm --> genAI: Detailed prompt to generate content
+
+servers <-- genAI: Generated content, aka exactly what you want to see
+phone <-- servers: Generated content, aka exactly what you want to see
+You <-- phone: Dopamine
+@enduml
