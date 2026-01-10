@@ -84,5 +84,5 @@ jobs:
         id: deployment
         run: |
           # SCP over all of the files to the VPS.
-          scp -r ./public vps:/home/blogga/blog
+          scp -r ./public/* vps:/home/blogga/blog/
           # SSH into the VPS and restart Nginx.
