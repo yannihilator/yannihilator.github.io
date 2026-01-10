@@ -110,8 +110,8 @@ enableEmoji = true
   readTimeSeparator = "\u2026 \u23F2 Reading Time:"
   # legacyLayout = false
   shareSocial = true
-  # tagSymbol = "#"
-  # categorySymbol = "⊲"
+  tagSymbol = "#"
+  categorySymbol = "⊲"
   pinned = "Pinned Posts"
   # pinnedSVGname = "pin"
   listLayout = ["description","tags"] # Supported : legacy, description, categories, tags
@@ -136,13 +136,13 @@ enableEmoji = true
     enable = true
     thumbnail = '300'
 
-  [[params.socialLinks]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/yanni-karamanis2"
-
-  [[params.socialLinks]]
-    name = "github"
-    url = "https://github.com/yannihilator"
+  # [[params.socialLinks]]
+  #   name = "linkedin"
+  #   url = "https://www.linkedin.com/in/yanni-karamanis2"
+  #
+  # [[params.socialLinks]]
+  #   name = "github"
+  #   url = "https://github.com/yannihilator"
 
 [menu]
 

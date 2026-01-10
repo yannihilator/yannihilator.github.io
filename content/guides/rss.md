@@ -8,7 +8,7 @@ title = 'RSS - A Non-Endless Content Feed'
 
 The main purpose of having an RSS feed is to get content from various sources without a suggestion algorithm. If you haven't already, see my [post on suggestion algorithms](posts/suggestion_algorithms.md) for a more detailed breakdown of the effects of suggestion algorithms.
 
-Although we want to escape suggestion algorithms, we still want to see content from sources that will enrich our lives in some way. RSS is the long-forgotten protocol of how the internet was originally supposed to work, in a decentralized manner; we don't need to depend on huge platforms that have a financial interest in keeping your attention to see a video/article/post from someone we want to follow.
+Although we want to escape suggestion algorithms, we still want to see content from sources that help us in some way. RSS is the long-forgotten protocol of how the internet was originally supposed to work, in a decentralized manner; we don't need to depend on huge platforms that have a financial interest in keeping your attention to see a video/article/post from someone we want to follow.
 
 For example, YouTube has a plethora of useful content; I have learned many new skills from the content on YouTube that have helped me in my career and improved my day-to-day life. What I have *not* benefited from, however, is the countless hours I have spent scrolling through my recommended feed on YHouTubes homepage, or the rabbit holes that show me content that will likely never be useful in my life. 
 
@@ -28,7 +28,9 @@ I am only going to cover mobile here (as opposed to desktop) because it is the e
 Download an RSS feeder. There are various applications for your phone, computer, and tablet. Here are some:
 
 * Android
-    * Feeder
+    * Feeder ([GitHub](https://github.com/spacecowboy/Feeder), [Google Play](https://play.google.com/store/apps/details?id=com.nononsenseapps.feeder.play))
+* iOS
+    * NetNewsWire ([Website](https://netnewswire.com/), [App Store](https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210))
 
 ### YouTube Channels
 Use [this website](https://newskeeper.io/tools/youtube-rss) to create an RSS feed from a YouTube channel. All you have to do is paste the link to the channel and it will give you options for what you want the feed to contain (all, vidoes, livestreams, shorts)
