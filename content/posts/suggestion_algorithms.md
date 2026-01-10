@@ -3,18 +3,20 @@ title: "Suggestion Algorithms"
 date: 2026-01-10T12:12:28-05:00
 draft: false
 toc: false
-images:
+images: 
+  - /images/robot_whisper.jpg
 tags: 
   - Technology
   - Lifestyle
 ---
 
+<!-- {{< figure src="/images/robot_whisper.jpg" alt="Robot Whisper" caption="" class="left" >}} -->
 Everyone is aware of "the algorithm" that pulls the strings behind the scenes to determine what content shows up on their feeds. In this post, I hope to go into a little bit more detail as to how this works, what the goals of the companies that program these algorithms are, and what can be done about it.
 
 ## The Feedback Loop
 Every major platform nowadays has a feedback loop that is optimized to maximize user engagement (aka, keep you on their app as long as possible). Everything you do on X/Twitter, YouTube, is automatically tracked by your phone and sent to their servers to determine what content will keep you engaged on their platform.
 
-At a **bare** minimum, this information includes:
+At a ***bare*** minimum, this information includes:
 
 * Content you consume
 * Topics/tags the content is related to
@@ -24,14 +26,14 @@ In real time, this information is fed into a machine learning algorithm, which t
 
 ![Suggestion Algorithm No GenAI](/plantuml/suggestion_algorithms_no_genai.png)
 
-Until recently, the content they can suggest to keep you engaged comes from a finite pool of what has been created by other people on the platform. Generative AI now allows for the **further** optimization of content to show you through these suggestion algorithms, but now this content comes from an **infinite** pool. In short, the effects that social media has had on the world will only be **intensified** with generative AI, unless people just leave the platforms altogether or don't fall victim to the suggestion algorithms.
+Until recently, the content they can suggest to keep you engaged comes from a finite pool of what has been created by other people on the platform. Generative AI now allows for the ***further*** optimization of content to show you through these suggestion algorithms, but now this content comes from an ***infinite*** pool. In short, the effects that social media has had on the world will only be ***intensified*** with generative AI, unless people just leave the platforms altogether or don't fall victim to the suggestion algorithms.
 
-![Suggestion Algorithm No GenAI](/plantuml/suggestion_algorithms_with_genai.png)
+![Suggestion Algorithm With GenAI](/plantuml/suggestion_algorithms_with_genai.png)
 
 This feedback loop repeats endlessly until you make the decision to stop paying attention, something that will get harder as the content generation gets better.
 
 ## Their Incentive
-Additionally, over a long period of time, the data that is collected **automatically** about what you consume gives these platforms the ability to build a profile about each user - what your interests, beliefs, associations are - **automatically**. They make money off of this information by selling this data to advertisers (in some cases, such as Google, they are the advertisers also) and other parties that are willing to pay for it, in addition to showing you ads that best suit your profile. These suggestion algorithms are so good at building a profile that they can seemingly predict things that you think or talk about.
+Over a long period of time, the data that is collected ***automatically*** about what you consume gives these platforms the ability to build a profile about each user - what your interests, beliefs, associations are - ***automatically***. They make money off of this information by selling this data to advertisers (in some cases, such as Google, they are the advertisers also) and other parties that are willing to pay for it, in addition to showing you ads that best suit your profile. These suggestion algorithms are so good at building a profile that they can seemingly predict things that you think or talk about.
 
 ## Do their Priorities Match Yours?
 At this point, you should ask yourself - are the goals of these platforms in line with my own? Do I want to maximize my engagement with my phone/computer? Do they improve my relationships? Do I actually learn useful information? Do I mostly need to filter through slop to find something useful?
