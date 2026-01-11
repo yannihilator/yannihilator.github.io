@@ -10,6 +10,8 @@ tags:
 ---
 
 <!-- {{< figure src="/images/robot_whisper.jpg" alt="Robot Whisper" caption="" class="left" >}} -->
+![Robot Whisper](/images/robot_whisper.png)
+
 Everyone is aware of "the algorithm" that pulls the strings behind the scenes to determine what content shows up on their feeds. In this post, I hope to go into a little bit more detail as to how this works, what the goals of the companies that program these algorithms are, and what can be done about it.
 
 ## The Feedback Loop

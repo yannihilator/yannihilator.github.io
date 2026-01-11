@@ -9,7 +9,7 @@ tags:
   - Lifestyle
 ---
 
-## Why
+## ![RSS logo](/images/rss.png) Why
 
 The main purpose of having an RSS feed is to get content from various sources without a suggestion algorithm. If you haven't already, see my [post on suggestion algorithms](posts/suggestion_algorithms.md) for a more detailed breakdown of the effects of suggestion algorithms.
 
